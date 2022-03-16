@@ -1,0 +1,18 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = AshishpBornMonkie
+	email = 96115600+AshishpBornMonkie@users.noreply.github.com
+[core]
+	autocrlf = false
+	excludesfile = C:\\Users\\Game Dev PC 1\\Documents\\gitignore_global.txt
+[credential "helperselector"]
+	selected = <no helper>
+[difftool "sourcetree"]
+	cmd = '' \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = "'' "
+	trustExitCode = true
